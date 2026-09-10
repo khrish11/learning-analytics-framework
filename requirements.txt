@@ -1,0 +1,17 @@
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+xlrd>=2.0.1
+scipy>=1.10.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Optional -- enables real gradient-boosted models / SHAP explanations.
+# Not required for the pipeline to run; see scripts/train_models.py and
+# scripts/explainability.py, which auto-detect and gracefully fall back
+# (GradientBoostingClassifier / permutation+built-in importance) if these
+# are not installed.
+# xgboost>=2.0.0
+# shap>=0.44.0
