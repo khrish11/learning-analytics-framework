@@ -627,3 +627,7 @@ logging (`logs/pipeline.log` + stdout), and defensive exception
 handling (missing-file errors raise a clear message rather than an
 opaque stack trace). Every path, threshold, and constant lives in
 `config.py` -- no file paths are hardcoded inside the phase scripts.
+
+## Documentation Activity
+
+- 2026-09-11 17:00 IST — Documentation maintenance update.
